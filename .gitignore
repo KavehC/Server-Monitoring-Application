@@ -1,0 +1,18 @@
+# Compiled C programs
+collector/collector
+collector/*.o
+
+# Java build output
+backend/target/
+backend/build/
+.gradle/
+
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.idea/
+.vscode/
+*~
